@@ -1,0 +1,111 @@
+# =========================
+# Python
+# =========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment & Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type Checking
+# =========================
+
+.mypy_cache/
+.pyre/
+.pytype/
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Local Databases
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Machine Learning / Data
+# =========================
+
+# Generated models
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Large datasets
+# Uncomment if you don't want datasets in Git
+# data/
+# datasets/
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
